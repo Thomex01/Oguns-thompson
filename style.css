@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 header{
@@ -12,7 +13,7 @@ header{
 
 
 nav{
-    width: 1100px;
+    width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -49,6 +50,11 @@ header nav .nav-left .left-links ul li a{
     
 }
 
+header nav .nav-left .left-links ul li a:hover{
+text-decoration: underline red;
+color: red;
+}
+
 header nav .nav-right{
     display: flex;
     align-items: center;
@@ -83,7 +89,7 @@ nav .nav-right button:hover{
 .sec1{
     width: 100%;
     height: 500px;
-
+    padding-top: 100px;
 }
 
 nav .nav-right .menu{
@@ -97,15 +103,16 @@ margin-left: 80px;
 }
 
 .sec1 .hero h1{
-    font-size: 3.7rem;
-    font-weight: 800;
+    font-size: 3.3em;
+    font-weight: 770;
     width: 1000px;
 }
 
 
 .sec1 .hero p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-top: 20px;
+    line-height: 1.8;
     width: 600px;
 }
 
@@ -131,18 +138,24 @@ margin-left: 80px;
 
 .sec2{
     height: 100%;
-    padding: 60px 70px;
+    padding: 200px 70px;
 }
 
+.sec2 .hero1 {
+    line-height: 5;
+}
 
 .sec2 .hero1 h3{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    font-weight: 600;
 
 }
 
+
 .sec2 .hero1 h2{
-    font-size: 1.2rem;
-    font-weight: 100;
+    font-size: 1.0rem;
+    font-weight:50;
+    letter-spacing: 0.1em;
 }
 
 .sec2 .below-hero .images {
